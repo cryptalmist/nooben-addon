@@ -1,18 +1,11 @@
 plugins {
-    id("fabric-loom") version "10.0"
+    id("fabric-loom") version "1.10-SNAPSHOT"
 }
 
 base {
     archivesName = properties["archives_base_name"] as String
     version = properties["mod_version"] as String
     group = properties["maven_group"] as String
-}
-
-pluginManagement {
-    repositories {
-        gradlePluginPortal()
-        maven("https://maven.fabricmc.net/") // ✅ Add this line
-    }
 }
 
 repositories {
