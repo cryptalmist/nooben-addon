@@ -4,7 +4,4 @@
 - Weather Pinger
 - Weather HUD
 - Elytra Boost Plus
-- Server Rotations
-
-
-im gooning 🙏
+- Server Rotation

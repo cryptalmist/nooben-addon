@@ -8,6 +8,13 @@ base {
     group = properties["maven_group"] as String
 }
 
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven("https://maven.fabricmc.net/") // ✅ Add this line
+    }
+}
+
 repositories {
     maven {
         name = "meteor-maven"
